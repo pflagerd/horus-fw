@@ -30,7 +30,6 @@
 #include "report.h"
 #include "print.h"
 
-
 void system_init() 
 {
   /*PINOUT_DDR &= ~(PINOUT_MASK); // Configure as input pins
