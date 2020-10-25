@@ -274,7 +274,7 @@ void st_go_idle()
    in fact, more efficiently utilizes unused CPU cycles overall throughout all configurations.
      AMASS retains the Bresenham algorithm exactness by requiring that it always executes a full
    Bresenham step, regardless of AMASS Level. Meaning that for an AMASS Level 2, all four 
-   intermediate steps must be completed such that baseline Bresenham (Level 0) count is always 
+   intermediate steps must be completed such that baseline Bresenham (Level 0) coutype filter textnt is always
    retained. Similarly, AMASS Level 3 means all eight intermediate steps must be executed. 
    Although the AMASS Levels are in reality arbitrary, where the baseline Bresenham counts can
    be multiplied by any integer value, multiplication by powers of two are simply used to ease 

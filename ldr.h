@@ -23,7 +23,6 @@
 
 #include <avr/io.h>
 #include <stdlib.h>
-#define F_CPU 16000000UL
 #include <util/delay.h>
 #define BAUDRATE 9600
 #define BAUD_PRESCALLER (((F_CPU / (BAUDRATE * 16UL))) - 1)
