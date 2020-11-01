@@ -33,7 +33,8 @@
 
 DEVICE     ?= atmega328p
 CLOCK      = 16000000
-PROGRAMMER ?= -c avrisp2 -P usb
+#PROGRAMMER ?= -c avrisp2 -P usb
+PROGRAMMER ?= -c arduino -P /dev/ttyUSB0
 OBJECTS    = main.o motion_control.o gcode.o serial.o laser_control.o ldr.o \
              protocol.o stepper.o eeprom.o settings.o planner.o nuts_bolts.o \
              print.o probe.o report.o system.o
