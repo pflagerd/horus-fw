@@ -122,7 +122,7 @@ uint8_t system_execute_line(char *line)
       } // Otherwise, no effect.
       break;               
 //  case 'J' : break;  // Jogging methods
-    // TODO: Here jogging can be placed for execution as a seperate subprogram. It does not need to be 
+    // TODO: Here jogging can be placed for execution as a separate subprogram. It does not need to be
     // susceptible to other runtime commands except for e-stop. The jogging function is intended to
     // be a basic toggle on/off with controlled acceleration and deceleration to prevent skipped 
     // steps. The user would supply the desired feedrate, axis to move, and direction. Toggle on would
